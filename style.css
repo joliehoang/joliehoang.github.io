@@ -26,7 +26,7 @@ body {
 a { color: var(--accent); text-underline-offset: 3px; }
 a:hover { text-decoration-thickness: 2px; }
 
-.wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
 /* Header */
 .site-header {
@@ -152,3 +152,7 @@ h3 { font-size: 1.02rem; font-weight: 600; margin: 0 0 8px; }
 .closing-photo { margin: 0 auto; max-width: 380px; }
 .closing-photo img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .closing-photo figcaption { margin-top: 8px; font-size: 0.8rem; color: var(--muted); }
+
+/* Logo in a project media box */
+.logo-media { display: flex; align-items: center; justify-content: center; padding: 8%; background: #fff; border: 1px solid var(--line); }
+.logo-media img { width: 100%; height: auto; }
