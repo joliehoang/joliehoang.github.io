@@ -167,3 +167,7 @@ h3 { font-size: 1.02rem; font-weight: 600; margin: 0 0 8px; }
 
 /* Closing line under the lion photo */
 .lets-begin { margin: 18px 0 0; font-family: var(--serif); font-size: 1.6rem; font-weight: 600; text-align: center; }
+
+/* Sub-bullets inside Teaching & service */
+.plain .sub { margin: 6px 0 0; padding-left: 1.2em; list-style: disc; font-size: 0.95rem; }
+.plain .sub li { padding: 2px 0; border: 0; }
