@@ -6,8 +6,8 @@
   --line: #e4e1da;
   --accent: #2f5d50;
   --accent-soft: #e8efec;
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "EB Garamond", Garamond, "Times New Roman", serif;
+  --sans: var(--serif);
 }
 
 
@@ -19,7 +19,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font: 16px/1.65 var(--sans);
+  font: 18.5px/1.55 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -107,7 +107,6 @@ h3 { font-size: 1.02rem; font-weight: 600; margin: 0 0 8px; }
 .game-card.c1 { transform: translateX(-46%) rotate(-9deg); }
 .game-card.c2 { transform: translateY(-4%); z-index: 1; }
 .game-card.c3 { transform: translateX(46%) rotate(9deg); }
-h3.sub { font-family: var(--serif); font-size: 1.2rem; margin: 28px 0 8px; }
 
 @media (max-width: 760px) {
   .project { grid-template-columns: 1fr; gap: 14px; }
@@ -120,11 +119,14 @@ h3.sub { font-family: var(--serif); font-size: 1.2rem; margin: 28px 0 8px; }
 }
 
 /* Headshot */
-.hero { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 36px; align-items: center; }
-.headshot { width: 180px; height: 212px; object-fit: cover; border-radius: 14px; border: 1px solid var(--line); }
+.hero { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 40px; align-items: center; }
+.portrait { margin: 0; }
+.headshot { display: block; width: 250px; height: 295px; object-fit: cover; border-radius: 14px; border: 1px solid var(--line); }
+.portrait figcaption { margin-top: 6px; font-size: 0.78rem; color: var(--muted); text-align: center; }
 @media (max-width: 640px) {
   .hero { grid-template-columns: 1fr; gap: 20px; }
-  .headshot { width: 120px; height: 141px; }
+  .headshot { width: 180px; height: 212px; }
+  .portrait figcaption { text-align: left; }
 }
 
 /* Paper figures. Drop a file at the path in the placeholder and it appears. */
@@ -140,3 +142,13 @@ h3.sub { font-family: var(--serif); font-size: 1.2rem; margin: 28px 0 8px; }
   background: var(--bg); color: var(--muted); font-size: 0.8rem; line-height: 1.4;
 }
 .fig .ph code { font-size: 0.75rem; }
+
+/* Looping videos in research cards */
+.fig video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; background: var(--bg); }
+.fig .cap { margin-top: 4px; font-size: 0.75rem; color: var(--muted); font-style: italic; }
+
+/* Closing photo */
+.closing { text-align: center; }
+.closing-photo { margin: 0 auto; max-width: 380px; }
+.closing-photo img { display: block; width: 100%; height: auto; border-radius: 14px; }
+.closing-photo figcaption { margin-top: 8px; font-size: 0.8rem; color: var(--muted); }

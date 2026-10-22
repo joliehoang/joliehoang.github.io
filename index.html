@@ -12,7 +12,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f5d50'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='30' fill='white' text-anchor='middle'%3EJH%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <!-- Remove class="draft" before going live: it shows placeholders for figures not added yet. -->
@@ -31,7 +31,10 @@
 
   <main id="top">
     <section class="wrap hero">
-      <img class="headshot" src="assets/headshot.webp" width="480" height="566" alt="Jolie Hoang">
+      <figure class="portrait">
+        <img class="headshot" src="assets/headshot.webp" width="480" height="566" alt="Jolie Hoang">
+        <figcaption>Photo by Tianyue Gao</figcaption>
+      </figure>
       <div class="hero-text">
       <p class="eyebrow">PhD Candidate in Neuroscience · Icahn School of Medicine at Mount Sinai</p>
       <h1>Dung (Jolie) Hoang</h1>
@@ -58,8 +61,8 @@
       <div class="cards">
         <article class="card">
           <figure class="fig">
-            <img src="assets/figures/blood-brain.png" alt="Blood–brain prediction results" onerror="this.parentElement.classList.add('missing')">
-            <figcaption class="ph">Figure placeholder: Blood–brain prediction results<br><code>assets/figures/blood-brain.png</code></figcaption>
+            <video autoplay loop muted playsinline preload="metadata" aria-label="3D rendering of a brain reconstructed from MRI, rotating"><source src="assets/figures/living-brain.mp4" type="video/mp4"></video>
+            <figcaption class="cap">My own brain, reconstructed from MRI</figcaption>
           </figure>
           <h3>Reading the living brain from blood</h3>
           <p>With the Living Brain Project, I build machine learning models (e.g., elastic net) that use blood transcriptomics and neuroimaging to predict gene and protein expression in living human brain tissue. We find that the strongest reproducible blood–brain concordance signals are not genetically driven.</p>
@@ -67,8 +70,8 @@
         </article>
         <article class="card">
           <figure class="fig">
-            <img src="assets/figures/genomic-benchmark.png" alt="Sequence-to-expression benchmark vs population-average baseline" onerror="this.parentElement.classList.add('missing')">
-            <figcaption class="ph">Figure placeholder: Sequence-to-expression benchmark vs population-average baseline<br><code>assets/figures/genomic-benchmark.png</code></figcaption>
+            <video autoplay loop muted playsinline preload="metadata" aria-label="Animated DNA double helix"><source src="assets/figures/dna-helix.mp4" type="video/mp4"></video>
+            <figcaption class="cap">Illustration</figcaption>
           </figure>
           <h3>Genomic foundation models</h3>
           <p>I contribute to DNT, a diploid-aware genomic foundation model developed in partnership with NVIDIA, and related work on JEPA-DNA, GFMBench-API, and VANDAM. I also benchmark deep learning sequence-to-expression models (Enformer, Basenji2, ExPecto, Xpresso) on personal genomes against a simple population-average baseline across ~1,470 brain and blood samples.</p>
@@ -85,8 +88,8 @@
         </article>
         <article class="card">
           <figure class="fig">
-            <img src="assets/figures/jepa.png" alt="PhysioJEPA / SleepJEPA model or results" onerror="this.parentElement.classList.add('missing')">
-            <figcaption class="ph">Figure placeholder: PhysioJEPA / SleepJEPA model or results<br><code>assets/figures/jepa.png</code></figcaption>
+            <video autoplay loop muted playsinline preload="metadata" aria-label="Animated physiological signals with a context window and a predicted window"><source src="assets/figures/physiology-jepa.mp4" type="video/mp4"></video>
+            <figcaption class="cap">Illustration: learning to predict a masked window of signals</figcaption>
           </figure>
           <h3>Self-supervised models of physiology</h3>
           <p>I contribute to joint-embedding (JEPA) models that learn from physiological signals for real-time ICU risk estimation (PhysioJEPA) and from at-home sleep data for disease-risk estimation (SleepJEPA).</p>
@@ -168,7 +171,10 @@
         </div>
       </article>
 
-      <h3 class="sub">Teaching &amp; service</h3>
+    </section>
+
+    <section class="wrap" id="teaching" aria-labelledby="teaching-h">
+      <h2 id="teaching-h">Teaching &amp; service</h2>
       <ul class="plain">
         <li><b>Student Lecturer</b>, Modern Statistics for Modern Biology, Mount Sinai (2025–present)</li>
         <li><b>NeurIPS 2025 Education Program</b>: “How are physiological time series data used for health research with AI?”</li>
@@ -177,6 +183,12 @@
         <li><b>Tutor and teaching assistant</b> in biology, chemistry, and calculus at Columbia University and MCPHS (2018–2023)</li>
       </ul>
     </section>
+    <section class="wrap closing" aria-label="Photo">
+      <figure class="closing-photo">
+        <img src="assets/lion.jpg" width="900" height="1200" loading="lazy" alt="Jolie sitting on the Scholars' Lion statue at Columbia University">
+        <figcaption>On the Scholars’ Lion, Columbia University</figcaption>
+      </figure>
+    </section>
   </main>
 
   <footer class="wrap footer">
@@ -184,6 +196,10 @@
   </footer>
 
   <script>
+    // Pause the looping videos for visitors who prefer reduced motion.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+    }
     // Load YouTube only when a video is clicked (faster page, no tracking until then).
     document.querySelectorAll('button.yt').forEach(function (btn) {
       btn.addEventListener('click', function () {
