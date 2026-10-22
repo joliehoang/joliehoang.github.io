@@ -51,9 +51,9 @@
     <section class="wrap about" aria-labelledby="about-h">
       <h2 id="about-h">About</h2>
       <p>I grew up in Hà Nội, Việt Nam, in a family of healers, and moved to the U.S. on my own at fourteen. Seeing how slowly and unevenly care reaches people shaped what I want to do: use technology to improve lives at scale, especially for those born into harder circumstances.</p>
-      <p>My research started in psychosis. During six years at Beth Israel Deaconess Medical Center and Harvard Medical School with <a href="https://www.urmc.rochester.edu/labs/lizano-lab">Dr. Paulo Lizano</a> and <a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/17411">Dr. Matcheri Keshavan</a>, I used neuroimaging (structural MRI and arterial spin labeling) to look for brain markers linked to symptom severity in psychotic disorders. During my master’s at Teachers College, Columbia University, mentored by <a href="https://publichealth.nyu.edu/faculty/lawrence-h-yang">Dr. Lawrence Yang</a>, <a href="https://www.columbiapsychiatry.org/profile/ragy-r-girgis-md">Dr. Ragy Girgis</a>, and <a href="https://www.tc.columbia.edu/faculty/rr2761/">Dr. Randall Richardson-Vejlgaard</a>, I continued studying psychosis and expanded into global mental health research in understudied communities.</p>
+      <p>My research started in psychosis. During six years at Beth Israel Deaconess Medical Center and Harvard Medical School with <a href="https://www.urmc.rochester.edu/labs/lizano-lab">Dr. Paulo Lizano</a> and <a href="https://sleep.hms.harvard.edu/faculty-staff/matcheri-s-keshavan">Dr. Matcheri Keshavan</a>, I used neuroimaging (structural MRI and arterial spin labeling) to look for brain markers linked to symptom severity in psychotic disorders. During my master’s at Teachers College, Columbia University, mentored by <a href="https://provost.duke.edu/profile/lawrence-yang-0/">Dr. Lawrence Yang</a>, <a href="https://www.columbiapsychiatry.org/profile/ragy-r-girgis-md">Dr. Ragy Girgis</a>, and <a href="https://www.tc.columbia.edu/faculty/rr2761/">Dr. Randall Richardson-Vejlgaard</a>, I continued studying psychosis and expanded into global mental health research in understudied communities.</p>
       <p>Today I’m a PhD candidate in the labs of <a href="https://profiles.icahn.mssm.edu/alexander-charney">Dr. Alexander Charney</a> and <a href="https://profiles.icahn.mssm.edu/noam-beckmann">Dr. Noam Beckmann</a> at the Icahn School of Medicine at Mount Sinai. My research sits at the intersection of neuroscience, genetics, and AI: I build machine learning models on blood, brain, and genetic data from the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, and help develop genomic foundation models with NVIDIA and Sheba Medical Center. I care about getting the details right, so I’ve studied when correction methods in gene expression analysis help or hurt, and how to benchmark genomic deep learning models fairly. I’m also part of a team building and testing a therapeutic AI chatbot for people with psychotic disorders.</p>
-      <p>Outside research, I love to travel, stay active, and play card games, and I’m learning wakesurfing, martial arts, and 3D printing.</p>
+      <p>Outside research, I love to travel, stay active, and play card games. These days I’m also learning wakesurfing, martial arts, and 3D printing.</p>
     </section>
 
     <section class="wrap" id="research" aria-labelledby="research-h">
@@ -63,16 +63,19 @@
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animation: DNA and blood flow into a model that lights up gene expression across a brain"><source src="assets/figures/blood-dna-brain.mp4" type="video/mp4"></video>
-            <figcaption class="cap">Illustration: predicting brain gene expression from blood and DNA</figcaption>
           </figure>
           <h3>Predicting brain gene expression from blood and DNA</h3>
-          <p>With the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, I build machine learning models that predict gene and protein expression in living human brain tissue from blood transcriptomics, genetics, and neuroimaging. We find that the strongest reproducible blood–brain concordance signals are not genetically driven. I also benchmark deep learning models that predict brain and blood gene expression from a person’s genome (Enformer, Basenji2, ExPecto, Xpresso) against a simple population-average baseline across ~1,470 samples.</p>
-          <p class="meta">First-author manuscripts in preparation.</p>
+          <p>With the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, I study gene and protein expression in living human brain tissue through three projects:</p>
+          <ul class="mini">
+            <li><b>Blood to brain:</b> machine learning that predicts brain expression from blood transcriptomics and neuroimaging. The strongest reproducible blood–brain concordance signals turn out not to be genetically driven.</li>
+            <li><b>Genetics to brain:</b> how genetic variants regulate gene and protein expression in the living brain.</li>
+            <li><b>Genome to expression, fairly benchmarked:</b> testing deep learning models (Enformer, Basenji2, ExPecto, Xpresso) against a simple population-average baseline across ~1,470 samples.</li>
+          </ul>
+          <p class="meta">First-author manuscripts: one under review, two in preparation.</p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animation: two DNA haplotypes stream into a neural network that predicts masked bases"><source src="assets/figures/genomic-model.mp4" type="video/mp4"></video>
-            <figcaption class="cap">Illustration: a diploid model reads both copies of the genome and predicts masked bases</figcaption>
           </figure>
           <h3>Genomic foundation models</h3>
           <p>I contribute to DNT, a diploid-aware genomic foundation model developed in partnership with NVIDIA and Sheba Medical Center, and related work on JEPA-DNA, GFMBench-API, and VANDAM. Instead of reading a single reference sequence, these models learn from both copies of a person’s genome.</p>
@@ -81,16 +84,15 @@
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animated curve fit that becomes more flexible until it fits noise"><source src="assets/figures/sva-overfitting.mp4" type="video/mp4"></video>
-            <figcaption class="cap">Illustration: as correction factors pile up, a model starts fitting noise</figcaption>
           </figure>
           <h3>Rigor in gene expression analysis</h3>
           <p>Using large-scale simulations and 14 brain cohorts across five neuropsychiatric disorders, I showed that indiscriminate surrogate variable adjustment leads to overfitting in differential expression analyses.</p>
+          <p class="meta">First-author manuscript under review.</p>
           <p class="meta"><a href="https://doi.org/10.64898/2026.10.05.756826">Preprint</a> · <a href="https://github.com/BeckmannLab/sva_eval_dea_neuropsych">Code</a> · ASHG &amp; ESHG 2024</p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animated chat with a safety agent that flags a message"><source src="assets/figures/safety-agent.mp4" type="video/mp4"></video>
-            <figcaption class="cap">Illustration: an independent safety agent reviewing a conversation</figcaption>
           </figure>
           <h3>AI chatbot for mental health</h3>
           <p>I contribute design input on infrastructure and UI/UX for Psybot, an AI agent designed to reduce the conviction of delusions in people with psychotic disorders, and am co-first author of a study showing that an independent supervisory safety agent improves detection of suicidal ideation in large language models.</p>
@@ -99,7 +101,6 @@
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Rotating dotted globe with arcs linking New York, Hà Nội and other places"><source src="assets/figures/global-mental-health.mp4" type="video/mp4"></video>
-            <figcaption class="cap">Illustration: research that connects communities across the world</figcaption>
           </figure>
           <h3>Global mental health and stigma</h3>
           <p>At Columbia and NYSPI, I studied how stigma and social context shape health in understudied communities: helping develop a “What Matters Most” approach to intersectional HIV and cancer stigma in Hà Nội, Việt Nam; reviewing how the COVID-19 pandemic affected chronic pain and opioid use in marginalized populations; and contributing to a multisite study of social support and help-seeking worldwide.</p>
@@ -108,13 +109,19 @@
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="3D rendering of a brain reconstructed from MRI, rotating"><source src="assets/figures/living-brain.mp4" type="video/mp4"></video>
-            <figcaption class="cap">My own brain, reconstructed from MRI with the same methods I use in research</figcaption>
           </figure>
           <h3>Linking psychosis neuroimaging and symptom severity</h3>
           <p>Six years of multimodal MRI research on psychosis, covering brain morphology, cerebral perfusion, connectomics, and their links to inflammation, cognition, and symptoms in multisite cohorts.</p>
           <p class="meta"><a href="https://doi.org/10.1017/S0033291726105844">Brain perfusion &amp; symptoms (2026)</a> · <a href="https://doi.org/10.1016/j.bbi.2021.11.019">Inflammation &amp; brain structure (2022)</a> · <a href="https://doi.org/10.1016/j.pscychresns.2021.111249">Thalamus &amp; hippocampus over time (2021)</a></p>
         </article>
       </div>
+    </section>
+
+    <section class="wrap" id="paper-leveler" aria-labelledby="leveler-h">
+      <h2 id="leveler-h">Paper Leveler</h2>
+      <p class="about-like">A tool I’m building to make scientific papers understandable to everyone. Good science depends on how a finding was reached, so understanding a paper should not require a PhD.</p>
+      <!-- TODO: embed the Paper Leveler tool here when it is ready -->
+      <div class="coming-soon">Coming soon</div>
     </section>
 
     <section class="wrap" id="publications" aria-labelledby="pubs-h">
@@ -124,9 +131,9 @@
         <li><b>Hoang, D.</b>, Zeng, V., Sritharan, J., … Keshavan, M., Lizano, P. (2026). Cerebral perfusion alterations are associated with clinical phenotypes and biotypes across the psychosis spectrum. <i>Psychological Medicine</i>, 56, e297. <a href="https://doi.org/10.1017/S0033291726105844">doi</a></li>
         <li><b>Hoang, D.</b>, Thompson, R., Lund, A., … Charney, A. W., Beckmann, N. (2026). Surrogate variables and the risk of overfitting in neuropsychiatric gene expression analyses. <i>bioRxiv</i>. <a href="https://doi.org/10.64898/2026.10.05.756826">doi</a> · <a href="https://github.com/BeckmannLab/sva_eval_dea_neuropsych">code</a></li>
         <li>Larey, A., Dahan, E., Bleiweiss, A., … <b>Hoang, D.</b>, … Daniel, N., Shavit, Y. (2026). JEPA-DNA: Grounding genomic foundation models through joint-embedding predictive architectures. <i>arXiv</i>:2602.17162. <a href="https://arxiv.org/abs/2602.17162">arXiv</a></li>
+        <li>Larey, A., Dahan, E., Bleiweiss, A., … <b>Hoang, D.</b>, … Shavit, Y., Daniel, N. (2026). GFMBench-API: A standardized interface for benchmarking genomic foundation models. <i>bioRxiv</i>. <a href="https://doi.org/10.64898/2026.02.19.706811">doi</a></li>
         <li>Leib, G., Zinger, T., Ofer, D., … <b>Hoang, D.</b>, … Rechavi, G. (2026). DNT: Diploid genomic foundation model. <i>bioRxiv</i>. <a href="https://doi.org/10.64898/2026.09.05.749576">doi</a></li>
         <li>Fox, B., <b>Hoang, D.</b>, Jiang, J., … Nadkarni, G. N., Sakhuja, A. (2025). PhysioJEPA: Joint embedding representations of physiological signals for real time risk estimation in the intensive care unit. <i>Machine Learning for Health (ML4H) 2025</i>. <a href="https://openreview.net/forum?id=bdXsfrNaGY">paper</a></li>
-        <li>Zeng, V., <b>Hoang, D.</b>, Song, S., … Keshavan, M. (2026). Mediodorsal and pulvinar thalamus reductions across the psychosis spectrum. <i>Schizophrenia Research</i>, 291, 88–98. <a href="https://doi.org/10.1016/j.schres.2026.02.002">doi</a></li>
         <li><b>Hoang, D.</b>, Xu, Y., Lutz, O., … Keshavan, M., Lizano, P. (2022). Inflammatory subtypes in antipsychotic-naïve first-episode schizophrenia are associated with altered brain morphology and topological organization. <i>Brain, Behavior, and Immunity</i>, 100, 297–308. <a href="https://doi.org/10.1016/j.bbi.2021.11.019">doi</a></li>
         <li><b>Hoang, D.</b>*, Lizano, P.*, Lutz, O., … Keshavan, M. (2021). Thalamic, amygdalar, and hippocampal nuclei morphology and their trajectories in first episode psychosis. <i>Psychiatry Research: Neuroimaging</i>, 309, 111249. <a href="https://doi.org/10.1016/j.pscychresns.2021.111249">doi</a> <span class="muted">(*co-first)</span></li>
       </ol>
@@ -158,7 +165,7 @@
           <p class="kicker">Co-founder &amp; Director · 2019–2021</p>
           <h3>TEDxMCPHS</h3>
           <p>A TEDx event with 10 speakers. When COVID-19 cancelled the in-person event, we filmed and produced it remotely. I led a 10-person board, curated and coached speakers, and saw the talks published on the TEDx channel.</p>
-          <p class="meta"><a href="https://www.youtube.com/playlist?list=PLsRNoUx8w3rPfJouP2-ZyBEKvBNuS-Wxa">All 10 talks</a> · <a href="https://www.instagram.com/tedxmcphs/">TEDxMCPHS today</a></p>
+          <p class="meta">Watch: <a href="https://www.youtube.com/playlist?list=PLsRNoUx8w3rPfJouP2-ZyBEKvBNuS-Wxa">All 10 talks</a> · <a href="https://www.instagram.com/tedxmcphs/">TEDxMCPHS today</a></p>
         </div>
       </article>
 
@@ -191,6 +198,7 @@
         <img src="assets/lion.jpg" width="900" height="1200" loading="lazy" alt="Jolie sitting on the Scholars' Lion statue at Columbia University">
         <figcaption>On the Scholars’ Lion, Columbia University</figcaption>
       </figure>
+      <p class="lets-begin">Let’s begin!</p>
     </section>
   </main>
 
