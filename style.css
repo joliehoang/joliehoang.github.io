@@ -56,8 +56,8 @@ h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2.2rem, 5vw, 
 
 /* Sections */
 section + section { border-top: 1px solid var(--line); }
-section { padding-top: 40px; padding-bottom: 40px; }
-h2 { font-family: var(--serif); font-weight: 600; font-size: 1.6rem; margin: 0 0 20px; }
+section.wrap:not(.hero) { padding-top: 56px; padding-bottom: 44px; }
+h2 { font-family: var(--serif); font-weight: 600; font-size: 1.6rem; margin: 0 0 24px; }
 h3 { font-size: 1.02rem; font-weight: 600; margin: 0 0 8px; }
 .about p { max-width: 42em; }
 
