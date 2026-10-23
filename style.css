@@ -113,9 +113,10 @@ h3 { font-size: 1.02rem; font-weight: 600; margin: 0 0 8px; }
 }
 
 .brand { white-space: nowrap; }
-@media (max-width: 420px) {
-  .nav ul { gap: 12px; }
-  .nav li:nth-child(2) { display: none; } /* Publications: reachable by scrolling */
+@media (max-width: 560px) {
+  .brand { display: none; }                 /* phones: room for all five section links */
+  .nav { justify-content: center; }
+  .nav ul { gap: 14px; font-size: 0.85rem; }
 }
 
 /* Headshot */
