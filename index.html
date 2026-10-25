@@ -67,13 +67,18 @@
     <nav class="wrap nav" aria-label="Sections">
       <a class="brand" href="#top">Jolie Hoang</a>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#community">Community</a></li>
-        <li><a href="#teaching">Teaching</a></li>
+        <li data-i18n="t01"><a href="#about">About</a></li>
+        <li data-i18n="t02"><a href="#research">Research</a></li>
+        <li data-i18n="t03"><a href="#publications">Publications</a></li>
+        <li data-i18n="t04"><a href="#community">Community</a></li>
+        <li data-i18n="t05"><a href="#teaching">Teaching</a></li>
         <!-- <li><a href="assets/Hoang_CV.pdf">CV</a></li>  re-enable once assets/Hoang_CV.pdf exists -->
       </ul>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="vi" lang="vi" aria-pressed="false">VI</button>
+        <button type="button" data-lang="zh" lang="zh-Hans" aria-pressed="false">中文</button>
+      </div>
     </nav>
   </header>
 
@@ -81,14 +86,14 @@
     <section class="wrap hero">
       <figure class="portrait">
         <img class="headshot" src="assets/headshot.webp" width="480" height="566" alt="Jolie Hoang">
-        <figcaption>Photo by Tianyue Gao</figcaption>
+        <figcaption data-i18n="t06">Photo by Tianyue Gao</figcaption>
       </figure>
       <div class="hero-text">
-      <p class="eyebrow">PhD Candidate in Neuroscience · Icahn School of Medicine at Mount Sinai</p>
+      <p class="eyebrow" data-i18n="t07">PhD Candidate in Neuroscience · Icahn School of Medicine at Mount Sinai</p>
       <h1>Dung (Jolie) Hoang</h1>
-      <p class="lede">I build and evaluate AI models to study the brain and human health, so better care can reach more people, sooner. I care about rigorous methods and about making science easy to understand for everyone.</p>
+      <p class="lede" data-i18n="t08">I build and evaluate AI models to study the brain and human health, so better care can reach more people, sooner. I care about rigorous methods and about making science easy to understand for everyone.</p>
       <ul class="links">
-        <li><a href="mailto:joliehoang22@gmail.com">Email</a></li>
+        <li data-i18n="t09"><a href="mailto:joliehoang22@gmail.com">Email</a></li>
         <li><a href="https://scholar.google.com/citations?user=YRSLjmEAAAAJ">Google Scholar</a></li>
         <li><a href="https://www.linkedin.com/in/joliehoang22/">LinkedIn</a></li>
         <!-- <li><a href="assets/Hoang_CV.pdf">CV (PDF)</a></li>  re-enable once assets/Hoang_CV.pdf exists -->
@@ -98,85 +103,85 @@
     </section>
 
     <section class="wrap about" id="about" aria-labelledby="about-h">
-      <h2 id="about-h">About</h2>
-      <p>I grew up in Hà Nội, Việt Nam, in a family of healers, and moved to the U.S. on my own at fourteen. I saw early how slowly and unevenly care reaches people, especially those born into harder circumstances. That is a big part of why I work on technology for health.</p>
-      <p>Before turning to AI, I trained at Beth Israel Deaconess Medical Center and Harvard Medical School with <a href="https://www.urmc.rochester.edu/labs/lizano-lab">Dr. Paulo Lizano</a> and <a href="https://sleep.hms.harvard.edu/faculty-staff/matcheri-s-keshavan">Dr. Matcheri Keshavan</a>. We used structural MRI and arterial spin labeling to look for brain markers of symptom severity in psychotic disorders. For my master’s at Teachers College, Columbia University, I continued studying psychosis with <a href="https://provost.duke.edu/profile/lawrence-yang-0/">Dr. Lawrence Yang</a>, <a href="https://www.columbiapsychiatry.org/profile/ragy-r-girgis-md">Dr. Ragy Girgis</a>, and <a href="https://www.tc.columbia.edu/faculty/rr2761/">Dr. Randall Richardson-Vejlgaard</a>, and started doing global mental health research in understudied communities.</p>
-      <p>Today I’m a PhD candidate in the labs of <a href="https://profiles.icahn.mssm.edu/alexander-charney">Dr. Alexander Charney</a> and <a href="https://profiles.icahn.mssm.edu/noam-beckmann">Dr. Noam Beckmann</a> at the Icahn School of Medicine at Mount Sinai. My research sits at the intersection of neuroscience, genetics, and AI: I build machine learning models on blood, brain, and genetic data from the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, and help develop genomic foundation models with NVIDIA and Sheba Medical Center. Because results depend on methods, I’ve studied when adjusting for hidden confounders in gene expression studies helps or hurts, and how to benchmark genomic deep learning models fairly. I’m also part of a team building and testing a therapeutic AI chatbot for people with psychotic disorders.</p>
-      <p>Outside research, I love to travel, stay active, and play card games. These days I’m also learning wakesurfing, martial arts, and 3D printing.</p>
+      <h2 id="about-h" data-i18n="t10">About</h2>
+      <p data-i18n="t11">I grew up in Hà Nội, Việt Nam, in a family of healers, and moved to the U.S. on my own at fourteen. I saw early how slowly and unevenly care reaches people, especially those born into harder circumstances. That is a big part of why I work on technology for health.</p>
+      <p data-i18n="t12">Before turning to AI, I trained at Beth Israel Deaconess Medical Center and Harvard Medical School with <a href="https://www.urmc.rochester.edu/labs/lizano-lab">Dr. Paulo Lizano</a> and <a href="https://sleep.hms.harvard.edu/faculty-staff/matcheri-s-keshavan">Dr. Matcheri Keshavan</a>. We used structural MRI and arterial spin labeling to look for brain markers of symptom severity in psychotic disorders. For my master’s at Teachers College, Columbia University, I continued studying psychosis with <a href="https://provost.duke.edu/profile/lawrence-yang-0/">Dr. Lawrence Yang</a>, <a href="https://www.columbiapsychiatry.org/profile/ragy-r-girgis-md">Dr. Ragy Girgis</a>, and <a href="https://www.tc.columbia.edu/faculty/rr2761/">Dr. Randall Richardson-Vejlgaard</a>, and started doing global mental health research in understudied communities.</p>
+      <p data-i18n="t13">Today I’m a PhD candidate in the labs of <a href="https://profiles.icahn.mssm.edu/alexander-charney">Dr. Alexander Charney</a> and <a href="https://profiles.icahn.mssm.edu/noam-beckmann">Dr. Noam Beckmann</a> at the Icahn School of Medicine at Mount Sinai. My research sits at the intersection of neuroscience, genetics, and AI: I build machine learning models on blood, brain, and genetic data from the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, and help develop genomic foundation models with NVIDIA and Sheba Medical Center. Because results depend on methods, I’ve studied when adjusting for hidden confounders in gene expression studies helps or hurts, and how to benchmark genomic deep learning models fairly. I’m also part of a team building and testing a therapeutic AI chatbot for people with psychotic disorders.</p>
+      <p data-i18n="t14">Outside research, I love to travel, stay active, and play card games. These days I’m also learning wakesurfing, martial arts, and 3D printing.</p>
     </section>
 
     <section class="wrap" id="research" aria-labelledby="research-h">
-      <h2 id="research-h">Research</h2>
+      <h2 id="research-h" data-i18n="t15">Research</h2>
 
       <div class="cards">
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animation: DNA and blood flow into a model that lights up gene expression across a brain"><source src="assets/figures/blood-dna-brain.mp4" type="video/mp4"></video>
           </figure>
-          <h3>Predicting brain gene expression from blood and DNA</h3>
-          <p>With the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, I study gene and protein expression in living human brain tissue through three projects:</p>
+          <h3 data-i18n="t16">Predicting brain gene expression from blood and DNA</h3>
+          <p data-i18n="t17">With the <a href="https://icahn.mssm.edu/research/friedman/living-brain">Living Brain Project</a>, I study gene and protein expression in living human brain tissue through three projects:</p>
           <ul class="mini">
-            <li><b>Blood to brain:</b> machine learning that predicts brain expression from blood transcriptomics and neuroimaging. The strongest reproducible blood–brain concordance signals turn out not to be genetically driven.</li>
-            <li><b>Genetics to brain:</b> how genetic variants regulate gene and protein expression in the living brain.</li>
-            <li><b>Genome to expression, fairly benchmarked:</b> testing deep learning models (Enformer, Basenji2, ExPecto, Xpresso) against the simplest baseline: a gene’s average expression across the population.</li>
+            <li data-i18n="t18"><b>Blood to brain:</b> machine learning that predicts brain expression from blood transcriptomics and neuroimaging. The strongest reproducible blood–brain concordance signals turn out not to be genetically driven.</li>
+            <li data-i18n="t19"><b>Genetics to brain:</b> how genetic variants regulate gene and protein expression in the living brain.</li>
+            <li data-i18n="t20"><b>Genome to expression, fairly benchmarked:</b> testing deep learning models (Enformer, Basenji2, ExPecto, Xpresso) against the simplest baseline: a gene’s average expression across the population.</li>
           </ul>
-          <p class="meta">First-author manuscripts under review and in preparation.</p>
+          <p class="meta" data-i18n="t21">First-author manuscripts under review and in preparation.</p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animation: two DNA haplotypes stream into a neural network that predicts masked bases"><source src="assets/figures/genomic-model.mp4" type="video/mp4"></video>
           </figure>
-          <h3>Genomic foundation models</h3>
-          <p>With NVIDIA and Sheba Medical Center, I’m part of a team bringing genomic foundation models closer to real biology. Most models read DNA as a single string of letters, so we build models that read both copies of a person’s genome (DNT), learn what DNA segments do rather than only filling in missing letters (JEPA-DNA), and draw on DNA’s physical and chemical properties (VANDAM), along with a standardized way to benchmark them fairly (GFMBench-API).</p>
+          <h3 data-i18n="t22">Genomic foundation models</h3>
+          <p data-i18n="t23">With NVIDIA and Sheba Medical Center, I’m part of a team bringing genomic foundation models closer to real biology. Most models read DNA as a single string of letters, so we build models that read both copies of a person’s genome (DNT), learn what DNA segments do rather than only filling in missing letters (JEPA-DNA), and draw on DNA’s physical and chemical properties (VANDAM), along with a standardized way to benchmark them fairly (GFMBench-API).</p>
           <p class="meta"><a href="https://arxiv.org/abs/2602.17162">JEPA-DNA</a> · <a href="https://doi.org/10.64898/2026.09.05.749576">DNT</a> · <a href="https://doi.org/10.64898/2026.02.19.706811">GFMBench-API</a> · <a href="https://arxiv.org/abs/2610.00411">VANDAM</a></p>
-          <p class="meta">First-author manuscript in preparation.</p>
+          <p class="meta" data-i18n="t24">First-author manuscript in preparation.</p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animated curve fit that becomes more flexible until it fits noise"><source src="assets/figures/sva-overfitting.mp4" type="video/mp4"></video>
           </figure>
-          <h3>Rigor in gene expression analysis</h3>
-          <p>Using large-scale simulations and 14 brain cohorts across five neuropsychiatric disorders, I showed that indiscriminate surrogate variable adjustment leads to overfitting in differential expression analyses.</p>
-          <p class="meta"><a href="https://doi.org/10.64898/2026.10.05.756826">Preprint</a> · <a href="https://github.com/BeckmannLab/sva_eval_dea_neuropsych">Code</a></p>
-          <p class="meta">First-author manuscript under review.</p>
+          <h3 data-i18n="t25">Rigor in gene expression analysis</h3>
+          <p data-i18n="t26">Using large-scale simulations and 14 brain cohorts across five neuropsychiatric disorders, I showed that indiscriminate surrogate variable adjustment leads to overfitting in differential expression analyses.</p>
+          <p class="meta" data-i18n="t27"><a href="https://doi.org/10.64898/2026.10.05.756826">Preprint</a> · <a href="https://github.com/BeckmannLab/sva_eval_dea_neuropsych">Code</a></p>
+          <p class="meta" data-i18n="t28">First-author manuscript under review.</p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Animated chat with a safety agent that flags a message"><source src="assets/figures/safety-agent.mp4" type="video/mp4"></video>
           </figure>
-          <h3>AI chatbot for mental health</h3>
-          <p>I’m part of a team building an AI chatbot designed to reduce the conviction of delusions in people with psychotic disorders. My work focuses on its safety guardrails and synthetic data, including a study showing that an independent safety agent helps language models detect suicidal ideation.</p>
-          <p class="meta">First-author manuscript under review.</p>
+          <h3 data-i18n="t29">AI chatbot for mental health</h3>
+          <p data-i18n="t30">I’m part of a team building an AI chatbot designed to reduce the conviction of delusions in people with psychotic disorders. My work focuses on its safety guardrails and synthetic data, including a study showing that an independent safety agent helps language models detect suicidal ideation.</p>
+          <p class="meta" data-i18n="t31">First-author manuscript under review.</p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="Rotating dotted globe with arcs linking New York, Hà Nội and other places"><source src="assets/figures/global-mental-health.mp4" type="video/mp4"></video>
           </figure>
-          <h3>Global mental health and stigma</h3>
-          <p>At Columbia and NYSPI, I studied how stigma and social context shape health in understudied communities: helping develop a “What Matters Most” approach to intersectional HIV and cancer stigma in Hà Nội, Việt Nam; reviewing how the COVID-19 pandemic affected chronic pain and opioid use in marginalized populations; and contributing to a multisite study of social support and help-seeking worldwide.</p>
-          <p class="meta"><a href="https://doi.org/10.1093/jncimonographs/lgae002">Intersectional stigma in Hà Nội (2024)</a> · <a href="https://doi.org/10.3389/fpubh.2023.1046683">COVID-19, chronic pain &amp; opioid use (2023)</a> · <a href="https://doi.org/10.1007/s12144-024-05764-5">Social support &amp; help-seeking worldwide (2024)</a></p>
+          <h3 data-i18n="t32">Global mental health and stigma</h3>
+          <p data-i18n="t33">At Columbia and NYSPI, I studied how stigma and social context shape health in understudied communities: helping develop a “What Matters Most” approach to intersectional HIV and cancer stigma in Hà Nội, Việt Nam; reviewing how the COVID-19 pandemic affected chronic pain and opioid use in marginalized populations; and contributing to a multisite study of social support and help-seeking worldwide.</p>
+          <p class="meta" data-i18n="t34"><a href="https://doi.org/10.1093/jncimonographs/lgae002">Intersectional stigma in Hà Nội (2024)</a> · <a href="https://doi.org/10.3389/fpubh.2023.1046683">COVID-19, chronic pain &amp; opioid use (2023)</a> · <a href="https://doi.org/10.1007/s12144-024-05764-5">Social support &amp; help-seeking worldwide (2024)</a></p>
         </article>
         <article class="card">
           <figure class="fig">
             <video autoplay loop muted playsinline preload="metadata" aria-label="3D rendering of a brain reconstructed from MRI, rotating"><source src="assets/figures/living-brain.mp4" type="video/mp4"></video>
           </figure>
-          <h3>Linking psychosis neuroimaging and symptom severity</h3>
-          <p>I’ve spent six years on multimodal MRI research in psychosis, studying brain morphology, cerebral perfusion, and connectomics, and how they relate to inflammation, cognition, and symptoms in multisite cohorts.</p>
-          <p class="meta"><a href="https://doi.org/10.1017/S0033291726105844">Brain perfusion &amp; symptoms (2026)</a> · <a href="https://doi.org/10.1016/j.bbi.2021.11.019">Inflammation &amp; brain structure (2022)</a> · <a href="https://doi.org/10.1016/j.pscychresns.2021.111249">Thalamus &amp; hippocampus over time (2021)</a></p>
+          <h3 data-i18n="t35">Linking psychosis neuroimaging and symptom severity</h3>
+          <p data-i18n="t36">I’ve spent six years on multimodal MRI research in psychosis, studying brain morphology, cerebral perfusion, and connectomics, and how they relate to inflammation, cognition, and symptoms in multisite cohorts.</p>
+          <p class="meta" data-i18n="t37"><a href="https://doi.org/10.1017/S0033291726105844">Brain perfusion &amp; symptoms (2026)</a> · <a href="https://doi.org/10.1016/j.bbi.2021.11.019">Inflammation &amp; brain structure (2022)</a> · <a href="https://doi.org/10.1016/j.pscychresns.2021.111249">Thalamus &amp; hippocampus over time (2021)</a></p>
         </article>
       </div>
     </section>
 
     <section class="wrap" id="plainly" aria-labelledby="plainly-h">
       <h2 id="plainly-h">Plainly</h2>
-      <p class="about-like">A tool I’m building to make scientific papers understandable to everyone. Understanding science shouldn’t require a PhD in it.</p>
+      <p class="about-like" data-i18n="t38">A tool I’m building to make scientific papers understandable to everyone. Understanding science shouldn’t require a PhD in it.</p>
       <!-- TODO: embed the Plainly tool here when it is ready -->
-      <div class="coming-soon">Coming soon</div>
+      <div class="coming-soon" data-i18n="t39">Coming soon</div>
     </section>
 
     <section class="wrap" id="publications" aria-labelledby="pubs-h">
-      <h2 id="pubs-h">Selected publications</h2>
-      <p class="note">Full list on <a href="https://scholar.google.com/citations?user=YRSLjmEAAAAJ">Google Scholar</a>.</p>
+      <h2 id="pubs-h" data-i18n="t40">Selected publications</h2>
+      <p class="note" data-i18n="t41">Full list on <a href="https://scholar.google.com/citations?user=YRSLjmEAAAAJ">Google Scholar</a>.</p>
       <ol class="pubs">
         <li><b>Hoang, D.</b>, Zeng, V., Sritharan, J., … Keshavan, M., Lizano, P. (2026). Cerebral perfusion alterations are associated with clinical phenotypes and biotypes across the psychosis spectrum. <i>Psychological Medicine</i>, 56, e297. <a href="https://doi.org/10.1017/S0033291726105844">doi</a></li>
         <li><b>Hoang, D.</b>, Thompson, R., Lund, A., … Charney, A. W., Beckmann, N. (2026). Surrogate variables and the risk of overfitting in neuropsychiatric gene expression analyses. <i>bioRxiv</i>. <a href="https://doi.org/10.64898/2026.10.05.756826">doi</a> · <a href="https://github.com/BeckmannLab/sva_eval_dea_neuropsych">code</a></li>
@@ -190,8 +195,8 @@
     </section>
 
     <section class="wrap" id="community" aria-labelledby="community-h">
-      <h2 id="community-h">Community projects</h2>
-      <p class="note">I've led teams that made a card game against anti-AAPI racism, a mental health video series in three languages, and a TEDx event.</p>
+      <h2 id="community-h" data-i18n="t42">Community projects</h2>
+      <p class="note" data-i18n="t43">I've led teams that made a card game against anti-AAPI racism, a mental health video series in three languages, and a TEDx event.</p>
 
       <article class="project">
         <div class="project-media">
@@ -199,10 +204,10 @@
                   style="background-image:url('https://i.ytimg.com/vi/ffSKiNlt5sE/hqdefault.jpg')"><span class="play" aria-hidden="true"></span></button>
         </div>
         <div class="project-body">
-          <p class="kicker">Founding Director · 2021–2023</p>
+          <p class="kicker" data-i18n="t44">Founding Director · 2021–2023</p>
           <h3>Vital</h3>
-          <p>A series of short videos in English, Mandarin, and Vietnamese about stress, failure, and grief from an Asian and Asian American perspective. It treats mental health as part of everyday wellness. I led 33 volunteers and hosted the Vietnamese episodes. Made with the Mass General Hospital Center for Cross-Cultural Student Emotional Wellness.</p>
-          <p class="meta">Watch: <a href="https://www.youtube.com/watch?v=ffSKiNlt5sE">English</a> · <a href="https://www.youtube.com/watch?v=uVIa31i9oh8">中文</a> · <a href="https://www.youtube.com/watch?v=WN85gxcj4tk">Tiếng Việt</a> · <a href="https://www.youtube.com/playlist?list=PLzjwcVFqLH8YLKbET913ASS00vILoassy">Full playlist</a></p>
+          <p data-i18n="t45">A series of short videos in English, Mandarin, and Vietnamese about stress, failure, and grief from an Asian and Asian American perspective. It treats mental health as part of everyday wellness. I led 33 volunteers and hosted the Vietnamese episodes. Made with the Mass General Hospital Center for Cross-Cultural Student Emotional Wellness.</p>
+          <p class="meta" data-i18n="t46">Watch: <a href="https://www.youtube.com/watch?v=ffSKiNlt5sE">English</a> · <a href="https://www.youtube.com/watch?v=uVIa31i9oh8">中文</a> · <a href="https://www.youtube.com/watch?v=WN85gxcj4tk">Tiếng Việt</a> · <a href="https://www.youtube.com/playlist?list=PLzjwcVFqLH8YLKbET913ASS00vILoassy">Full playlist</a></p>
         </div>
       </article>
 
@@ -212,10 +217,10 @@
                   style="background-image:url('https://i.ytimg.com/vi/XgqNxomZoeY/hqdefault.jpg')"><span class="play" aria-hidden="true"></span></button>
         </div>
         <div class="project-body">
-          <p class="kicker">Co-founder &amp; Director · 2019–2021</p>
+          <p class="kicker" data-i18n="t47">Co-founder &amp; Director · 2019–2021</p>
           <h3>TEDxMCPHS</h3>
-          <p>A TEDx event with 10 speakers. When COVID-19 cancelled the in-person event, we filmed and produced it remotely. Leading a 10-person board, I curated and coached speakers and published the talks on the TEDx channel.</p>
-          <p class="meta">Watch: <a href="https://www.youtube.com/playlist?list=PLsRNoUx8w3rPfJouP2-ZyBEKvBNuS-Wxa">All 10 talks</a> · <a href="https://www.instagram.com/tedxmcphs/">TEDxMCPHS today</a></p>
+          <p data-i18n="t48">A TEDx event with 10 speakers. When COVID-19 cancelled the in-person event, we filmed and produced it remotely. Leading a 10-person board, I curated and coached speakers and published the talks on the TEDx channel.</p>
+          <p class="meta" data-i18n="t49">Watch: <a href="https://www.youtube.com/playlist?list=PLsRNoUx8w3rPfJouP2-ZyBEKvBNuS-Wxa">All 10 talks</a> · <a href="https://www.instagram.com/tedxmcphs/">TEDxMCPHS today</a></p>
         </div>
       </article>
 
@@ -224,36 +229,36 @@
           <img src="https://trailblazerheroes.com/wp-content/uploads/2023/04/trailblazerheroes-transp-1.png" width="1076" height="333" alt="Trailblazer Heroes logo" loading="lazy">
         </a>
         <div class="project-body">
-          <p class="kicker">Business Lead · 2022–2023</p>
+          <p class="kicker" data-i18n="t50">Business Lead · 2022–2023</p>
           <h3>Trailblazer Heroes</h3>
-          <p>A card game about Asian American and Pacific Islander heroes, past and present, made at Teachers College, Columbia University after the rise in anti-Asian violence during COVID-19. It was the first game of its kind. I led business strategy, marketing, and outreach.</p>
-          <p class="meta"><a href="https://trailblazerheroes.com/">Website</a> · <a href="https://www.instagram.com/trailblazerheroes/">Instagram</a> · <a href="https://news.columbia.edu/news/team-columbians-made-first-ever-card-game-celebrating-aapi-heroes">Columbia News</a> · <a href="https://abc7ny.com/post/aapi-card-game-columbia-university-masters-students/13255488/">ABC7 New York</a></p>
+          <p data-i18n="t51">A card game about Asian American and Pacific Islander heroes, past and present, made at Teachers College, Columbia University after the rise in anti-Asian violence during COVID-19. It was the first game of its kind. I led business strategy, marketing, and outreach.</p>
+          <p class="meta" data-i18n="t52"><a href="https://trailblazerheroes.com/">Website</a> · <a href="https://www.instagram.com/trailblazerheroes/">Instagram</a> · <a href="https://news.columbia.edu/news/team-columbians-made-first-ever-card-game-celebrating-aapi-heroes">Columbia News</a> · <a href="https://abc7ny.com/post/aapi-card-game-columbia-university-masters-students/13255488/">ABC7 New York</a></p>
         </div>
       </article>
 
     </section>
 
     <section class="wrap" id="teaching" aria-labelledby="teaching-h">
-      <h2 id="teaching-h">Teaching &amp; service</h2>
+      <h2 id="teaching-h" data-i18n="t53">Teaching &amp; service</h2>
       <ul class="plain">
-        <li><b>Mental Health Clinic Research Chair</b>, East Harlem Health Outreach Partnership, a student-run free clinic (2025–present)
+        <li><span data-i18n="t54"><b>Mental Health Clinic Research Chair</b>, East Harlem Health Outreach Partnership, a student-run free clinic (2025–present)</span>
           <ul class="sub">
-            <li>Mentoring graduate and medical students to lead their own research projects</li>
-            <li>Building the clinic’s first research database from its electronic health records, so students can study disease patterns, social determinants of health, and treatment outcomes in the patients the clinic serves</li>
+            <li data-i18n="t55">Mentoring graduate and medical students to lead their own research projects</li>
+            <li data-i18n="t56">Building the clinic’s first research database from its electronic health records, so students can study disease patterns, social determinants of health, and treatment outcomes in the patients the clinic serves</li>
           </ul>
         </li>
-        <li><b>NeurIPS 2025 Education Program</b>: <a href="https://openreview.net/forum?id=Xc6lUT1xug">“How are physiological time series data used for health research with AI?”</a></li>
-        <li><b>Student Lecturer</b>, Modern Statistics for Modern Biology, Mount Sinai (2024–2025)</li>
-        <li><b>Tutor and teaching assistant</b> in biology, chemistry, and calculus at Columbia University and MCPHS University (2018–2023)</li>
-        <li><b>Crisis line volunteer</b>, <a href="https://samaritanshope.org/">Samaritans</a>, 200+ hours (2021–2022)</li>
+        <li data-i18n="t57"><b>NeurIPS 2025 Education Program</b>: <a href="https://openreview.net/forum?id=Xc6lUT1xug">“How are physiological time series data used for health research with AI?”</a></li>
+        <li data-i18n="t58"><b>Student Lecturer</b>, Modern Statistics for Modern Biology, Mount Sinai (2024–2025)</li>
+        <li data-i18n="t59"><b>Tutor and teaching assistant</b> in biology, chemistry, and calculus at Columbia University and MCPHS University (2018–2023)</li>
+        <li data-i18n="t60"><b>Crisis line volunteer</b>, <a href="https://samaritanshope.org/">Samaritans</a>, 200+ hours (2021–2022)</li>
       </ul>
     </section>
     <section class="wrap closing" aria-label="Photo">
       <figure class="closing-photo">
         <img src="assets/lion.jpg" width="900" height="1200" loading="lazy" alt="Jolie sitting on the Scholars' Lion statue at Columbia University">
-        <figcaption>On the Scholars’ Lion, Columbia University</figcaption>
+        <figcaption data-i18n="t61">On the Scholars’ Lion, Columbia University</figcaption>
       </figure>
-      <p class="lets-begin">Let’s begin!</p>
+      <p class="lets-begin" data-i18n="t62">Let’s begin!</p>
     </section>
   </main>
 
@@ -280,5 +285,6 @@
       });
     });
   </script>
+  <script src="i18n.js"></script>
 </body>
 </html>
