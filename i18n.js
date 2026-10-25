@@ -130,13 +130,141 @@
   "t60": "<b>危机热线志愿者</b>，<a href=\"https://samaritanshope.org/\">Samaritans</a>，200多小时（2021–2022）",
   "t61": "坐在哥伦比亚大学的“学者之狮”雕像上",
   "t62": "让我们开始吧！"
+ },
+ "fr": {
+  "t01": "<a href=\"#about\">À propos</a>",
+  "t02": "<a href=\"#research\">Recherche</a>",
+  "t03": "<a href=\"#publications\">Publications</a>",
+  "t04": "<a href=\"#community\">Communauté</a>",
+  "t05": "<a href=\"#teaching\">Enseignement</a>",
+  "t06": "Photo : Tianyue Gao",
+  "t07": "Doctorat en neurosciences (en cours) · Icahn School of Medicine at Mount Sinai",
+  "t08": "Je conçois et j’évalue des modèles d’IA pour étudier le cerveau et la santé humaine, afin que de meilleurs soins atteignent plus de personnes, plus tôt. J’attache de l’importance à la rigueur des méthodes et à une science compréhensible par tous.",
+  "t09": "<a href=\"mailto:joliehoang22@gmail.com\">E-mail</a>",
+  "t10": "À propos",
+  "t11": "J’ai grandi à Hà Nội, au Việt Nam, dans une famille de soignants, et à quatorze ans j’ai déménagé aux États-Unis par mes propres moyens. J’ai vu très tôt avec quelle lenteur et quelle inégalité les soins parviennent aux gens, surtout à celles et ceux qui naissent dans des conditions plus difficiles. C’est en grande partie pour cela que je travaille sur la technologie au service de la santé.",
+  "t12": "Avant de me tourner vers l’IA, j’ai suivi une formation au Beth Israel Deaconess Medical Center et à la Harvard Medical School auprès du <a href=\"https://www.urmc.rochester.edu/labs/lizano-lab\">Dr Paulo Lizano</a> et du <a href=\"https://sleep.hms.harvard.edu/faculty-staff/matcheri-s-keshavan\">Dr Matcheri Keshavan</a>. Nous avons utilisé l’IRM structurelle et le marquage de spins artériels (ASL) pour rechercher des marqueurs cérébraux de la sévérité des symptômes dans les troubles psychotiques. Pendant mon master à Teachers College, Columbia University, j’ai poursuivi mes recherches sur la psychose avec le <a href=\"https://provost.duke.edu/profile/lawrence-yang-0/\">Dr Lawrence Yang</a>, le <a href=\"https://www.columbiapsychiatry.org/profile/ragy-r-girgis-md\">Dr Ragy Girgis</a> et le <a href=\"https://www.tc.columbia.edu/faculty/rr2761/\">Dr Randall Richardson-Vejlgaard</a>, et j’ai commencé des recherches en santé mentale mondiale auprès de communautés peu étudiées.",
+  "t13": "Aujourd’hui, je prépare un doctorat dans les laboratoires du <a href=\"https://profiles.icahn.mssm.edu/alexander-charney\">Dr Alexander Charney</a> et du <a href=\"https://profiles.icahn.mssm.edu/noam-beckmann\">Dr Noam Beckmann</a> à l’Icahn School of Medicine at Mount Sinai. Mes recherches se situent à l’intersection des neurosciences, de la génétique et de l’IA : je construis des modèles d’apprentissage automatique à partir de données sanguines, cérébrales et génétiques du <a href=\"https://icahn.mssm.edu/research/friedman/living-brain\">Living Brain Project</a>, et je contribue au développement de modèles de fondation génomiques avec NVIDIA et le Sheba Medical Center. Comme les résultats dépendent des méthodes, j’ai étudié dans quels cas l’ajustement pour des facteurs de confusion cachés aide ou nuit dans les études d’expression génique, et comment évaluer équitablement les modèles d’apprentissage profond en génomique. Je fais aussi partie d’une équipe qui développe et teste un chatbot thérapeutique fondé sur l’IA pour les personnes atteintes de troubles psychotiques.",
+  "t14": "En dehors de la recherche, j’aime voyager, faire du sport et jouer aux cartes. En ce moment, j’apprends aussi le wakesurf, les arts martiaux et l’impression 3D.",
+  "t15": "Recherche",
+  "t16": "Prédire l’expression des gènes dans le cerveau à partir du sang et de l’ADN",
+  "t17": "Avec le <a href=\"https://icahn.mssm.edu/research/friedman/living-brain\">Living Brain Project</a>, j’étudie l’expression des gènes et des protéines dans le tissu cérébral humain vivant à travers trois projets :",
+  "t18": "<b>Du sang au cerveau :</b> un apprentissage automatique qui prédit l’expression cérébrale à partir du transcriptome sanguin et de la neuro-imagerie. Les signaux de concordance sang–cerveau les plus forts et reproductibles ne s’avèrent pas d’origine génétique.",
+  "t19": "<b>De la génétique au cerveau :</b> comment les variants génétiques régulent l’expression des gènes et des protéines dans le cerveau vivant.",
+  "t20": "<b>Du génome à l’expression, évalué équitablement :</b> tester des modèles d’apprentissage profond (Enformer, Basenji2, ExPecto, Xpresso) face à la référence la plus simple : l’expression moyenne d’un gène dans la population.",
+  "t21": "Manuscrits en premier auteur en cours d’évaluation et en préparation.",
+  "t22": "Modèles de fondation génomiques",
+  "t23": "Avec NVIDIA et le Sheba Medical Center, je fais partie d’une équipe qui rapproche les modèles de fondation génomiques de la biologie réelle. La plupart des modèles lisent l’ADN comme une seule chaîne de lettres ; nous construisons donc des modèles qui lisent les deux copies du génome d’une personne (DNT), apprennent ce que font des segments d’ADN plutôt que de seulement compléter des lettres manquantes (JEPA-DNA) et s’appuient sur les propriétés physiques et chimiques de l’ADN (VANDAM), ainsi qu’une méthode standardisée pour les évaluer équitablement (GFMBench-API).",
+  "t24": "Manuscrit en premier auteur en préparation.",
+  "t25": "Rigueur dans l’analyse de l’expression génique",
+  "t26": "À l’aide de simulations à grande échelle et de 14 cohortes cérébrales couvrant cinq troubles neuropsychiatriques, j’ai montré qu’un ajustement systématique par variables de substitution (surrogate variables) conduit à un surapprentissage dans les analyses d’expression différentielle.",
+  "t27": "<a href=\"https://doi.org/10.64898/2026.10.05.756826\">Prépublication</a> · <a href=\"https://github.com/BeckmannLab/sva_eval_dea_neuropsych\">Code</a>",
+  "t28": "Manuscrit en premier auteur en cours d’évaluation.",
+  "t29": "Chatbot d’IA pour la santé mentale",
+  "t30": "Je fais partie d’une équipe qui développe un chatbot d’IA conçu pour réduire la conviction délirante chez les personnes atteintes de troubles psychotiques. Mon travail porte sur ses garde-fous de sécurité et sur les données synthétiques, notamment une étude montrant qu’un agent de sécurité indépendant aide les modèles de langage à détecter les idées suicidaires.",
+  "t31": "Manuscrit en premier auteur en cours d’évaluation.",
+  "t32": "Santé mentale mondiale et stigmatisation",
+  "t33": "À Columbia et au NYSPI, j’ai étudié comment la stigmatisation et le contexte social influencent la santé de communautés peu étudiées : contribution à une approche « What Matters Most » de la stigmatisation intersectionnelle liée au VIH et au cancer à Hà Nội, au Việt Nam ; revue de l’impact de la pandémie de COVID-19 sur la douleur chronique et la consommation d’opioïdes dans les populations marginalisées ; et participation à une étude multicentrique sur le soutien social et la recherche d’aide dans le monde.",
+  "t34": "<a href=\"https://doi.org/10.1093/jncimonographs/lgae002\">Stigmatisation intersectionnelle à Hà Nội (2024)</a> · <a href=\"https://doi.org/10.3389/fpubh.2023.1046683\">COVID-19, douleur chronique &amp; opioïdes (2023)</a> · <a href=\"https://doi.org/10.1007/s12144-024-05764-5\">Soutien social &amp; recherche d’aide dans le monde (2024)</a>",
+  "t35": "Relier la neuro-imagerie de la psychose à la sévérité des symptômes",
+  "t36": "J’ai consacré six ans à la recherche en IRM multimodale sur la psychose, en étudiant la morphologie cérébrale, la perfusion cérébrale et la connectomique, ainsi que leurs liens avec l’inflammation, la cognition et les symptômes dans des cohortes multicentriques.",
+  "t37": "<a href=\"https://doi.org/10.1017/S0033291726105844\">Perfusion cérébrale &amp; symptômes (2026)</a> · <a href=\"https://doi.org/10.1016/j.bbi.2021.11.019\">Inflammation &amp; structure cérébrale (2022)</a> · <a href=\"https://doi.org/10.1016/j.pscychresns.2021.111249\">Thalamus &amp; hippocampe dans le temps (2021)</a>",
+  "t38": "Un outil que je développe pour rendre les articles scientifiques compréhensibles par tous. Comprendre la science ne devrait pas exiger un doctorat dans le domaine.",
+  "t39": "Bientôt disponible",
+  "t40": "Publications choisies",
+  "t41": "Liste complète sur <a href=\"https://scholar.google.com/citations?user=YRSLjmEAAAAJ\">Google Scholar</a>.",
+  "t42": "Projets communautaires",
+  "t43": "J’ai dirigé des équipes qui ont créé un jeu de cartes contre le racisme anti-AAPI, une série de vidéos sur la santé mentale en trois langues et un événement TEDx.",
+  "t44": "Fondation et direction · 2021–2023",
+  "t45": "Une série de courtes vidéos en anglais, en mandarin et en vietnamien sur le stress, l’échec et le deuil, d’un point de vue asiatique et américano-asiatique. Elle aborde la santé mentale comme une part du bien-être quotidien. J’ai dirigé 33 bénévoles et animé les épisodes en vietnamien. Réalisée avec le Mass General Hospital Center for Cross-Cultural Student Emotional Wellness.",
+  "t46": "Regarder : <a href=\"https://www.youtube.com/watch?v=ffSKiNlt5sE\">English</a> · <a href=\"https://www.youtube.com/watch?v=uVIa31i9oh8\">中文</a> · <a href=\"https://www.youtube.com/watch?v=WN85gxcj4tk\">Tiếng Việt</a> · <a href=\"https://www.youtube.com/playlist?list=PLzjwcVFqLH8YLKbET913ASS00vILoassy\">Playlist complète</a>",
+  "t47": "Cofondation et direction · 2019–2021",
+  "t48": "Un événement TEDx avec 10 intervenants. Lorsque la COVID-19 a annulé l’événement en présentiel, nous l’avons filmé et produit à distance. À la tête d’un comité de 10 personnes, j’ai sélectionné et accompagné les intervenants, puis publié les conférences sur la chaîne TEDx.",
+  "t49": "Regarder : <a href=\"https://www.youtube.com/playlist?list=PLsRNoUx8w3rPfJouP2-ZyBEKvBNuS-Wxa\">Les 10 conférences</a> · <a href=\"https://www.instagram.com/tedxmcphs/\">TEDxMCPHS aujourd’hui</a>",
+  "t50": "Responsable du développement commercial · 2022–2023",
+  "t51": "Un jeu de cartes sur des héros et héroïnes d’origine asiatique américaine et des îles du Pacifique, d’hier et d’aujourd’hui, créé à Teachers College, Columbia University après la montée des violences anti-asiatiques pendant la COVID-19. C’était le premier jeu de ce genre. J’ai dirigé la stratégie commerciale, le marketing et la communication.",
+  "t52": "<a href=\"https://trailblazerheroes.com/\">Site web</a> · <a href=\"https://www.instagram.com/trailblazerheroes/\">Instagram</a> · <a href=\"https://news.columbia.edu/news/team-columbians-made-first-ever-card-game-celebrating-aapi-heroes\">Columbia News</a> · <a href=\"https://abc7ny.com/post/aapi-card-game-columbia-university-masters-students/13255488/\">ABC7 New York</a>",
+  "t53": "Enseignement &amp; engagement",
+  "t54": "<b>Responsable de la recherche, clinique de santé mentale</b>, East Harlem Health Outreach Partnership, clinique gratuite gérée par des étudiants (2025–aujourd’hui)",
+  "t55": "Encadrer des étudiants de troisième cycle et de médecine pour qu’ils mènent leurs propres projets de recherche",
+  "t56": "Créer la première base de données de recherche de la clinique à partir de ses dossiers médicaux électroniques, afin que les étudiants puissent étudier les profils de maladies, les déterminants sociaux de la santé et les résultats des traitements chez les patients de la clinique",
+  "t57": "<b>Programme éducatif NeurIPS 2025</b> : <a href=\"https://openreview.net/forum?id=Xc6lUT1xug\">“How are physiological time series data used for health research with AI?”</a>",
+  "t58": "<b>Cours magistraux</b>, Modern Statistics for Modern Biology, Mount Sinai (2024–2025)",
+  "t59": "<b>Tutorat et assistanat d’enseignement</b> en biologie, chimie et calcul à Columbia University et MCPHS University (2018–2023)",
+  "t60": "<b>Bénévolat sur une ligne d’écoute de crise</b>, <a href=\"https://samaritanshope.org/\">Samaritans</a>, plus de 200 heures (2021–2022)",
+  "t61": "Sur le Scholars’ Lion, Columbia University",
+  "t62": "C’est parti !"
+ },
+ "es": {
+  "t01": "<a href=\"#about\">Sobre mí</a>",
+  "t02": "<a href=\"#research\">Investigación</a>",
+  "t03": "<a href=\"#publications\">Publicaciones</a>",
+  "t04": "<a href=\"#community\">Comunidad</a>",
+  "t05": "<a href=\"#teaching\">Docencia</a>",
+  "t06": "Foto: Tianyue Gao",
+  "t07": "Doctorado en Neurociencia (en curso) · Icahn School of Medicine at Mount Sinai",
+  "t08": "Desarrollo y evalúo modelos de IA para estudiar el cerebro y la salud humana, para que una mejor atención llegue a más personas, antes. Me importan los métodos rigurosos y que la ciencia sea fácil de entender para todo el mundo.",
+  "t09": "<a href=\"mailto:joliehoang22@gmail.com\">Correo</a>",
+  "t10": "Sobre mí",
+  "t11": "Crecí en Hà Nội, Việt Nam, en una familia dedicada a la medicina, y a los catorce años me mudé a Estados Unidos por mi cuenta. Desde muy temprano vi lo lenta y desigual que llega la atención médica a las personas, sobre todo a quienes nacen en circunstancias más difíciles. Esa es una gran parte de por qué trabajo en tecnología para la salud.",
+  "t12": "Antes de dedicarme a la IA, me formé en el Beth Israel Deaconess Medical Center y la Harvard Medical School con el <a href=\"https://www.urmc.rochester.edu/labs/lizano-lab\">Dr. Paulo Lizano</a> y el <a href=\"https://sleep.hms.harvard.edu/faculty-staff/matcheri-s-keshavan\">Dr. Matcheri Keshavan</a>. Usamos resonancia magnética estructural y marcaje arterial de espín (ASL) para buscar marcadores cerebrales de la gravedad de los síntomas en los trastornos psicóticos. Durante mi maestría en Teachers College, Columbia University, seguí estudiando la psicosis con el <a href=\"https://provost.duke.edu/profile/lawrence-yang-0/\">Dr. Lawrence Yang</a>, el <a href=\"https://www.columbiapsychiatry.org/profile/ragy-r-girgis-md\">Dr. Ragy Girgis</a> y el <a href=\"https://www.tc.columbia.edu/faculty/rr2761/\">Dr. Randall Richardson-Vejlgaard</a>, y empecé a investigar en salud mental global en comunidades poco estudiadas.",
+  "t13": "Hoy curso el doctorado en los laboratorios del <a href=\"https://profiles.icahn.mssm.edu/alexander-charney\">Dr. Alexander Charney</a> y del <a href=\"https://profiles.icahn.mssm.edu/noam-beckmann\">Dr. Noam Beckmann</a> en la Icahn School of Medicine at Mount Sinai. Mi investigación está en la intersección de la neurociencia, la genética y la IA: construyo modelos de aprendizaje automático con datos de sangre, cerebro y genética del <a href=\"https://icahn.mssm.edu/research/friedman/living-brain\">Living Brain Project</a>, y colaboro en el desarrollo de modelos fundacionales genómicos con NVIDIA y el Sheba Medical Center. Como los resultados dependen de los métodos, he estudiado cuándo ajustar por factores de confusión ocultos en estudios de expresión génica ayuda o perjudica, y cómo evaluar de forma justa los modelos de aprendizaje profundo en genómica. También formo parte de un equipo que desarrolla y prueba un chatbot terapéutico de IA para personas con trastornos psicóticos.",
+  "t14": "Fuera de la investigación, me encanta viajar, hacer deporte y jugar a las cartas. Ahora también estoy aprendiendo wakesurf, artes marciales e impresión 3D.",
+  "t15": "Investigación",
+  "t16": "Predecir la expresión génica del cerebro a partir de la sangre y el ADN",
+  "t17": "Con el <a href=\"https://icahn.mssm.edu/research/friedman/living-brain\">Living Brain Project</a>, estudio la expresión de genes y proteínas en tejido cerebral humano vivo a través de tres proyectos:",
+  "t18": "<b>De la sangre al cerebro:</b> aprendizaje automático que predice la expresión cerebral a partir del transcriptoma sanguíneo y la neuroimagen. Las señales de concordancia sangre–cerebro más fuertes y reproducibles resultan no estar impulsadas por la genética.",
+  "t19": "<b>De la genética al cerebro:</b> cómo las variantes genéticas regulan la expresión de genes y proteínas en el cerebro vivo.",
+  "t20": "<b>Del genoma a la expresión, evaluado con justicia:</b> comparar modelos de aprendizaje profundo (Enformer, Basenji2, ExPecto, Xpresso) con la referencia más sencilla: la expresión promedio de un gen en la población.",
+  "t21": "Manuscritos como primera autoría en revisión y en preparación.",
+  "t22": "Modelos fundacionales genómicos",
+  "t23": "Con NVIDIA y el Sheba Medical Center, formo parte de un equipo que acerca los modelos fundacionales genómicos a la biología real. La mayoría de los modelos leen el ADN como una sola cadena de letras, así que construimos modelos que leen las dos copias del genoma de una persona (DNT), aprenden qué hacen los segmentos de ADN en lugar de solo completar letras faltantes (JEPA-DNA) y aprovechan las propiedades físicas y químicas del ADN (VANDAM), además de una forma estandarizada de evaluarlos con justicia (GFMBench-API).",
+  "t24": "Manuscrito como primera autoría en preparación.",
+  "t25": "Rigor en el análisis de expresión génica",
+  "t26": "Con simulaciones a gran escala y 14 cohortes cerebrales de cinco trastornos neuropsiquiátricos, demostré que el ajuste indiscriminado por variables sustitutas (surrogate variables) produce sobreajuste en los análisis de expresión diferencial.",
+  "t27": "<a href=\"https://doi.org/10.64898/2026.10.05.756826\">Preprint</a> · <a href=\"https://github.com/BeckmannLab/sva_eval_dea_neuropsych\">Código</a>",
+  "t28": "Manuscrito como primera autoría en revisión.",
+  "t29": "Chatbot de IA para la salud mental",
+  "t30": "Formo parte de un equipo que desarrolla un chatbot de IA diseñado para reducir la convicción delirante en personas con trastornos psicóticos. Mi trabajo se centra en sus salvaguardas de seguridad y en datos sintéticos, incluido un estudio que muestra que un agente de seguridad independiente ayuda a los modelos de lenguaje a detectar ideación suicida.",
+  "t31": "Manuscrito como primera autoría en revisión.",
+  "t32": "Salud mental global y estigma",
+  "t33": "En Columbia y el NYSPI, estudié cómo el estigma y el contexto social influyen en la salud de comunidades poco estudiadas: contribuí a desarrollar un enfoque “What Matters Most” sobre el estigma interseccional del VIH y el cáncer en Hà Nội, Việt Nam; revisé cómo la pandemia de COVID-19 afectó el dolor crónico y el consumo de opioides en poblaciones marginadas; y participé en un estudio multicéntrico sobre apoyo social y búsqueda de ayuda en todo el mundo.",
+  "t34": "<a href=\"https://doi.org/10.1093/jncimonographs/lgae002\">Estigma interseccional en Hà Nội (2024)</a> · <a href=\"https://doi.org/10.3389/fpubh.2023.1046683\">COVID-19, dolor crónico &amp; opioides (2023)</a> · <a href=\"https://doi.org/10.1007/s12144-024-05764-5\">Apoyo social &amp; búsqueda de ayuda en el mundo (2024)</a>",
+  "t35": "Vincular la neuroimagen de la psicosis con la gravedad de los síntomas",
+  "t36": "He dedicado seis años a la investigación con resonancia magnética multimodal en psicosis, estudiando la morfología cerebral, la perfusión cerebral y la conectómica, y su relación con la inflamación, la cognición y los síntomas en cohortes multicéntricas.",
+  "t37": "<a href=\"https://doi.org/10.1017/S0033291726105844\">Perfusión cerebral &amp; síntomas (2026)</a> · <a href=\"https://doi.org/10.1016/j.bbi.2021.11.019\">Inflamación &amp; estructura cerebral (2022)</a> · <a href=\"https://doi.org/10.1016/j.pscychresns.2021.111249\">Tálamo &amp; hipocampo a lo largo del tiempo (2021)</a>",
+  "t38": "Una herramienta que estoy desarrollando para que cualquier persona pueda entender los artículos científicos. Entender la ciencia no debería requerir un doctorado en ella.",
+  "t39": "Próximamente",
+  "t40": "Publicaciones seleccionadas",
+  "t41": "Lista completa en <a href=\"https://scholar.google.com/citations?user=YRSLjmEAAAAJ\">Google Scholar</a>.",
+  "t42": "Proyectos comunitarios",
+  "t43": "He liderado equipos que crearon un juego de cartas contra el racismo anti-AAPI, una serie de videos sobre salud mental en tres idiomas y un evento TEDx.",
+  "t44": "Fundación y dirección · 2021–2023",
+  "t45": "Una serie de videos cortos en inglés, mandarín y vietnamita sobre el estrés, el fracaso y el duelo desde una perspectiva asiática y asiático-americana. Presenta la salud mental como parte del bienestar diario. Lideré a 33 voluntarios y presenté los episodios en vietnamita. Realizada con el Mass General Hospital Center for Cross-Cultural Student Emotional Wellness.",
+  "t46": "Ver: <a href=\"https://www.youtube.com/watch?v=ffSKiNlt5sE\">English</a> · <a href=\"https://www.youtube.com/watch?v=uVIa31i9oh8\">中文</a> · <a href=\"https://www.youtube.com/watch?v=WN85gxcj4tk\">Tiếng Việt</a> · <a href=\"https://www.youtube.com/playlist?list=PLzjwcVFqLH8YLKbET913ASS00vILoassy\">Lista completa</a>",
+  "t47": "Cofundación y dirección · 2019–2021",
+  "t48": "Un evento TEDx con 10 ponentes. Cuando la COVID-19 canceló el evento presencial, lo grabamos y produjimos a distancia. Al frente de un comité de 10 personas, seleccioné y preparé a los ponentes y publiqué las charlas en el canal de TEDx.",
+  "t49": "Ver: <a href=\"https://www.youtube.com/playlist?list=PLsRNoUx8w3rPfJouP2-ZyBEKvBNuS-Wxa\">Las 10 charlas</a> · <a href=\"https://www.instagram.com/tedxmcphs/\">TEDxMCPHS hoy</a>",
+  "t50": "Dirección comercial · 2022–2023",
+  "t51": "Un juego de cartas sobre personas heroicas asiático-americanas y de las islas del Pacífico, del pasado y del presente, creado en Teachers College, Columbia University tras el aumento de la violencia antiasiática durante la COVID-19. Fue el primer juego de su tipo. Dirigí la estrategia comercial, el marketing y la difusión.",
+  "t52": "<a href=\"https://trailblazerheroes.com/\">Sitio web</a> · <a href=\"https://www.instagram.com/trailblazerheroes/\">Instagram</a> · <a href=\"https://news.columbia.edu/news/team-columbians-made-first-ever-card-game-celebrating-aapi-heroes\">Columbia News</a> · <a href=\"https://abc7ny.com/post/aapi-card-game-columbia-university-masters-students/13255488/\">ABC7 New York</a>",
+  "t53": "Docencia &amp; servicio",
+  "t54": "<b>Responsable de investigación, clínica de salud mental</b>, East Harlem Health Outreach Partnership, clínica gratuita dirigida por estudiantes (2025–actualidad)",
+  "t55": "Mentoría a estudiantes de posgrado y de medicina para que dirijan sus propios proyectos de investigación",
+  "t56": "Creación de la primera base de datos de investigación de la clínica a partir de sus historias clínicas electrónicas, para que el estudiantado pueda estudiar patrones de enfermedad, determinantes sociales de la salud y resultados de tratamiento en las personas que atiende la clínica",
+  "t57": "<b>Programa educativo de NeurIPS 2025</b>: <a href=\"https://openreview.net/forum?id=Xc6lUT1xug\">“How are physiological time series data used for health research with AI?”</a>",
+  "t58": "<b>Clases magistrales</b>, Modern Statistics for Modern Biology, Mount Sinai (2024–2025)",
+  "t59": "<b>Tutorías y asistencia docente</b> en biología, química y cálculo en Columbia University y MCPHS University (2018–2023)",
+  "t60": "<b>Voluntariado en una línea de crisis</b>, <a href=\"https://samaritanshope.org/\">Samaritans</a>, más de 200 horas (2021–2022)",
+  "t61": "Sobre el Scholars’ Lion, Columbia University",
+  "t62": "¡Empecemos!"
  }
 };
-  var HTML_LANG = { en: 'en', vi: 'vi', zh: 'zh-Hans' };
+  var HTML_LANG = { en: 'en', vi: 'vi', zh: 'zh-Hans', fr: 'fr', es: 'es' };
   var els = document.querySelectorAll('[data-i18n]');
   var en = {};
   els.forEach(function (e) { en[e.getAttribute('data-i18n')] = e.innerHTML; });
-  var buttons = document.querySelectorAll('.lang button');
+  var picker = document.getElementById('lang-select');
 
   function apply(lang) {
     if (!HTML_LANG[lang]) lang = 'en';
@@ -145,17 +273,15 @@
       e.innerHTML = (lang !== 'en' && T[lang] && T[lang][k]) || en[k];
     });
     document.documentElement.lang = HTML_LANG[lang];
-    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+    if (picker) picker.value = lang;
     try { localStorage.setItem('lang', lang); } catch (e) {}
   }
 
-  buttons.forEach(function (b) {
-    b.addEventListener('click', function () {
-      apply(b.dataset.lang);
-      var url = new URL(window.location.href);
-      if (b.dataset.lang === 'en') url.searchParams.delete('lang'); else url.searchParams.set('lang', b.dataset.lang);
-      history.replaceState(null, '', url);
-    });
+  if (picker) picker.addEventListener('change', function () {
+    apply(picker.value);
+    var url = new URL(window.location.href);
+    if (picker.value === 'en') url.searchParams.delete('lang'); else url.searchParams.set('lang', picker.value);
+    history.replaceState(null, '', url);
   });
 
   var start = new URLSearchParams(window.location.search).get('lang');

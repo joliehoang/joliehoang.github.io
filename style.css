@@ -175,11 +175,10 @@ h3 { font-size: 1.02rem; font-weight: 600; margin: 0 0 8px; }
 
 /* Language switcher */
 .nav ul { margin-left: auto; }
-.lang { display: flex; gap: 2px; margin-left: 18px; padding-left: 14px; border-left: 1px solid var(--line); }
-.lang button { all: unset; cursor: pointer; padding: 2px 7px; border-radius: 999px; font-size: 0.82rem; color: var(--muted); }
-.lang button:hover { color: var(--text); }
-.lang button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
-.lang button:focus-visible { outline: 2px solid var(--accent); }
+.lang { display: flex; align-items: center; gap: 4px; margin-left: 18px; padding-left: 14px; border-left: 1px solid var(--line); color: var(--muted); cursor: pointer; }
+.lang:hover, .lang:focus-within { color: var(--accent); }
+.lang select { font: inherit; font-size: 0.85rem; color: inherit; background: transparent; border: 0; padding: 2px 2px; cursor: pointer; }
+.lang select:focus-visible { outline: 2px solid var(--accent); border-radius: 4px; }
 html[lang="zh-Hans"] body { font-family: "EB Garamond", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "SimSun", serif; }
 html[lang="zh-Hans"] .about p, html[lang="zh-Hans"] .about-like { text-align: left; }
 @media (max-width: 560px) {
@@ -187,3 +186,14 @@ html[lang="zh-Hans"] .about p, html[lang="zh-Hans"] .about-like { text-align: le
   .nav ul { margin-left: 0; width: 100%; justify-content: center; }
   .lang { margin: 0 auto; border-left: 0; padding-left: 0; }
 }
+
+/* Keep menu items whole; on narrow screens let the menu wrap onto extra rows */
+.nav li a { white-space: nowrap; }
+@media (max-width: 760px) {
+  .brand { display: none; }
+  .nav { flex-wrap: wrap; height: auto; padding-top: 8px; padding-bottom: 6px; row-gap: 4px; justify-content: center; }
+  .nav ul { margin-left: 0; width: 100%; flex-wrap: wrap; justify-content: center; column-gap: 14px; row-gap: 2px; font-size: 0.85rem; }
+  .lang { margin: 0 auto; border-left: 0; padding-left: 0; }
+}
+
+@media (max-width: 760px) { html { scroll-padding-top: 104px; } }

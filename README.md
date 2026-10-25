@@ -13,8 +13,8 @@ Live at https://joliehoang.github.io (repo: joliehoang/joliehoang.github.io). Th
 2. Make it public (Settings → Danger Zone → Change visibility).
 3. Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`.
 
-## Languages (EN / VI / 中文)
+## Languages (EN / VI / 中文 / FR / ES)
 - English text lives in `index.html`. Every translatable element has a `data-i18n="tNN"` key.
-- Vietnamese and Simplified Chinese live in `i18n.js` under the same keys. They are generated from a script in Claude's scratch space, but you can edit `i18n.js` directly.
+- Vietnamese, Simplified Chinese, French and Spanish live in `i18n.js` under the same keys. They are generated from a script in Claude's scratch space, but you can edit `i18n.js` directly.
 - **When you change English text, update the same key in `i18n.js`.** Missing keys fall back to English. Publication entries and animation labels stay in English.
-- Share a language directly with `?lang=vi` or `?lang=zh`.
+- Share a language directly with `?lang=vi`, `?lang=zh`, `?lang=fr` or `?lang=es`.
